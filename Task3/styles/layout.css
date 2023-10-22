@@ -1,0 +1,336 @@
+/* Forces a scrollbar */
+html {
+  overflow-y: scroll;
+}
+
+/* To make the image(logo) expand on hover */
+img:hover {
+  transform: scale(1.1);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 13px;
+  font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana,
+    "sans-serif";
+  background-image: url("main-back.jpeg");
+  background-size: cover;
+}
+
+/*For the Footer Part*/
+.clear:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+}
+
+.clear {
+  display: block;
+  clear: both;
+}
+
+/*To Remove special text for hyperlink*/
+a {
+  outline: none;
+  text-decoration: none;
+}
+
+.fl_left {
+  float: left;
+}
+
+.fl_right {
+  float: right;
+}
+
+img {
+  margin: 0;
+  padding: 0;
+  border: none;
+  line-height: normal;
+  vertical-align: middle;
+  transition: 0.3s;
+  /* Transition for the hover expansion */
+}
+
+/*----------------------------------------------HTML 5 Overrides-------------------------------------*/
+
+address,
+article,
+aside,
+figcaption,
+figure,
+footer,
+header,
+nav,
+section {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+/*Main Content*/
+
+div.wrapper {
+  display: block;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+/*Header Banner*/
+.row1,
+.row1 a {
+  color: #ff9900;
+  background-color: #333333;
+  background-color: rebeccapurple;
+}
+
+/*For the Body*/
+.row2 {
+  color: white;
+  background-image: url("main-back.jpeg");
+}
+
+/* Footer */
+.row3,
+.row3 a {
+  color: #ff9900;
+  background-color: purple;
+}
+
+/*General*/
+
+#header,
+#container,
+#footer {
+  display: block;
+  width: 960px;
+  margin: 0 auto;
+}
+
+/*For the menu part in the top right corner*/
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/*for the logo*/
+h1 {
+  margin: 0;
+  padding: 0;
+  line-height: normal;
+}
+
+form {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+/*For the logos on the homepage*/
+.one_third,
+.two_third,
+.three_third {
+  display: block;
+  float: left;
+  width: 300px;
+  border-color: transparent;
+}
+
+.one_third {
+  margin-left: 10%;
+}
+
+.two_third {
+  padding-left: 200px;
+}
+
+.three_third {
+padding: 10px;
+  padding-left: 10px;
+}
+
+/*Header*/
+
+#header {
+  padding: 20px 0;
+}
+
+#header #hgroup {
+  float: left;
+  margin: 0 0 20px 0;
+}
+
+#header #hgroup h1 {
+  font-weight: normal;
+  text-transform: none;
+  text-decoration-color: mediumpurple;
+}
+
+#header #hgroup h1 {
+  font-size: 50px;
+  text-decoration-color: mediumpurple;
+}
+
+/*Navigation Menu on the top right*/
+#header nav {
+  display: block;
+  float: right;
+  margin: 10px 0 0 0;
+  padding: 20px 0;
+  color: antiquewhite;
+  background-color: mediumpurple;
+  font-size: 16px;
+}
+
+/*For the menu elements*/
+#header nav ul {
+  padding: 0 20px;
+}
+
+#header nav li {
+  display: inline;
+  /*To make it stay in one line*/
+  margin-right: 20px;
+  text-transform: uppercase;
+}
+
+#header nav li.last {
+  margin-right: 0;
+}
+
+/*for the text and box of the menu*/
+#header nav li a {
+  color: white;
+  background-color: mediumpurple;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.05);
+}
+
+#header nav li a:hover {
+  color: #ddd;
+  background-color: mediumorchid;
+}
+
+/*The Body part, the gallery of the product page and the subtitle part on the homepage*/
+
+#container {
+  padding: 30px 0;
+}
+
+/* ------the subtitle part-----*/
+
+#container #subtitle {
+  padding: 0 0 20px 0;
+  border-bottom: 3px solid #ff9900;
+  text-align: center;
+}
+
+#container #subtitle p {
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+  line-height: 1.8em;
+}
+
+/*Display of the Logos on the main page*/
+
+#container #homepage {
+  display: block;
+  width: 100%;
+  line-height: 1.6em;
+}
+
+/*For the arrangement of the logos*/
+#container #homepage #latest {
+  margin-bottom: 50px;
+}
+
+#container #homepage #latest article figure ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#container #homepage #latest article figure ul li {
+  margin-bottom: 50px;
+}
+
+#container #homepage #latest article figure ul li img {
+  padding: 4px;
+  border: 0px solid #d6d6d6;
+  text-align: center;
+}
+
+#container #homepage #latest article figure figcaption {
+  display: block;
+  width: 100%;
+  clear: both;
+  padding: 0 0 20px 0;
+
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: right;
+}
+
+/*Footer-*/
+
+#footer {
+  padding: 20px 0;
+}
+
+#footer p {
+  margin: 0;
+  padding: 0;
+}
+
+/*For the DropDown in the menu*/
+.dropbtn {
+  background-color: mediumpurple;
+  color: white;
+  padding: 10px;
+  font-size: 15px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  margin-right: 8px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+/*For the elements in the drop down*/
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  background-color: mediumpurple;
+}
+
+.dropdown-content a:hover {
+  background-color: mediumorchid;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: mediumorchid;
+}

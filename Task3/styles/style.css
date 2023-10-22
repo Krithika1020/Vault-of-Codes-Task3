@@ -1,0 +1,172 @@
+@import url(http://fonts.googleapis.com/css?family=PT+Serif:400,700,400italic);
+
+
+
+
+
+
+script {
+	display: none !important
+}
+
+html {
+
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%
+}
+
+body {
+	margin: 0
+}
+
+h1 {
+	font-size: 2em;
+
+}
+
+/*= Demo */
+
+
+body {
+	font-size: 20px;
+	color: #FF9900;
+
+}
+
+
+
+
+
+#site {
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 0 1em;
+}
+
+
+
+.tagline {
+	float: right;
+	color: #666;
+	font-size: 14px;
+	padding-top: 3.5em;
+}
+
+
+
+#site-info {
+	height: 3em;
+	width: 100%;
+	line-height: 3;
+	text-align: center;
+	background: #cc8500;
+	position: absolute;
+	color: #fff;
+	left: 0;
+	bottom: 0;
+}
+
+body#checkout-page #site-info {
+	position: static;
+}
+
+/*table for the checkout*/
+.shopping-cart {
+	border: 1px solid #ddd;
+	margin-top: 40px;
+	font-weight: bold;
+	border-collapse: collapse;
+	border-spacing: 0;
+	width: 100%;
+	color: #FF9900;
+	background-color: purple;
+	table-layout: fixed;
+}
+
+.shopping-cart th {
+	font-size: 1.3em;
+	padding: 0.3em;
+	width: 33.3%;
+	border: 1px solid #ddd;
+	text-transform: uppercase;
+}
+
+.shopping-cart td {
+	padding: 0.3em;
+	font-weight: 500;
+	width: 33.3%;
+	border: 1px solid #ddd;
+}
+
+
+
+
+.pdelete a,
+.pdelete a:hover {
+	color: red;
+	text-decoration: none;
+	font-size: 2.5em;
+	display: block;
+	text-align: center;
+}
+
+
+#shopping-cart-actions li {
+	display: inline-block;
+	margin-right: 1em;
+}
+
+#sub-total,
+#shipping {
+	margin: 1.5em 0;
+	text-align: right;
+}
+
+#sub-total span,
+#shipping span {
+	margin-left: 1em;
+}
+
+#content>h1,
+#checkout-order-form h2 {
+	font-size: 2em;
+	text-align: center;
+}
+
+#pricing #sub-total,
+#pricing #shipping {
+	margin: 1em 0;
+}
+
+#checkout-order-form {
+	margin: 1.5em 0;
+
+}
+
+#checkout-order-form fieldset {
+
+	border-radius: 20px;
+	padding: 10px 10px 0px 100px;
+	width: 100%;
+	background-color: purple;
+	background-size: 10px 30px;
+	margin-bottom: 1.3em;
+}
+
+#checkout-order-form legend {
+	padding: 0.3em;
+	background: mediumorchid;
+	font-weight: bold;
+}
+
+#checkout-order-form div {
+	margin-bottom: 1em;
+}
+
+
+
+.message {
+	display: block;
+	margin: 0.5em 0;
+	color: red;
+}

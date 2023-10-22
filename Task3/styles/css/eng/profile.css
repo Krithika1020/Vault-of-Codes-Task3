@@ -1,0 +1,57 @@
+@charset "utf-8";
+
+.contents-desc {font-family: 'Camber-R'; line-height: 28px; letter-spacing: -0.02em;}
+
+.members .popup-inner > ul > li dt {margin-bottom: 32px; font-family: 'Camber-SB';}
+.members .popup-inner > ul > li dd {font-family: 'Camber-R'; letter-spacing: 0;}
+
+
+
+
+
+@media screen and (max-width: 1440px) {
+
+.contents-desc {line-height: 1.94vw;}
+
+.members .popup-inner > ul > li dt {margin-bottom: 2.22vw;}
+
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 1250px) {
+
+.contents-desc {line-height: 24px;}
+
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+
+.contents-desc {font-size: 3.61vw; line-height: 5.83vw; letter-spacing: -0.02em;}
+
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 450px) {
+
+.contents-desc {font-size: 16px; line-height: 26px;}
+
+}
+
+
+

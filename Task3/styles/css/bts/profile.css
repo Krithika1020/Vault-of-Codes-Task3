@@ -1,0 +1,52 @@
+@charset "utf-8";
+
+main {background: #2b2b29;}
+main section {max-width: 1440px; margin: 0 auto;}
+main .kv {max-width: 1080px;}
+
+.intro {left: -5px;}
+.intro .contents-title {width: 36.57%; padding-top: 119px; padding-right: 30px;}
+.intro .contents-desc {width: 63.43%; padding-top: 121px; color: #333; }
+.mac-os .intro .contents-title,
+.safari .intro .contents-title {padding-top: 127px;}
+
+.members {background: #232321;}
+.members .profile-img li:first-child {margin-left: 0;}
+.members .profile-img li:nth-child(odd) {margin-left: 0;}
+.members .popup-inner > ul > li {background: rgba(43, 43, 41, 0.9); color: #fff;}
+.members .popup-inner > ul > li .btn-close {background-color: rgba(0, 0, 0, 0.3);}
+
+@media screen and (max-width: 1440px) {
+	.intro {left: -0.35vw;}
+	.intro .contents-title {padding-top: 8.26vw; padding-right: 2.08vw;}
+	.intro .contents-desc {padding-top: 8.4vw;}
+	.mac-os .intro .contents-title,
+	.safari .intro .contents-title {padding-top: 8.82vw;}
+}
+
+@media screen and (max-width: 768px) {
+	main .kv {padding-top: 26.7vw;}
+
+	.intro {left: 0; padding-bottom: 25vw;}
+	.intro .contents-title {width: 100%; padding-top: 10.69vw; padding-right: 0; font-size: 13.89vw;}
+	.intro .contents-desc {width: 100%;}
+	.intro .contents-desc {padding-top: 5.83vw;}
+	.mac-os .intro .contents-title {padding-top: 10.69vw;}
+	.safari .intro .contents-title {padding-top: 10.9vw;}
+	.InternetExplorer .contents-title {padding-top: 11.2vw;}
+
+	.members .popup-inner > ul > li .btn-close {background-color: rgba(255, 255, 255, 0.1);}
+	.members .profile-img li:nth-child(2) {margin-right: 50%;}
+	.members .profile-img li:nth-child(5) {margin-left: 50%;}
+}
+
+@media screen and (max-width: 320px) {
+	main .kv {padding-top: 85px;}
+
+	.intro {left: 0; padding-bottom: 80px;}
+	.intro .contents-title {margin-left: -2px; padding-top: 34px; padding-right: 25px; font-size: 44px;}
+	.intro .contents-desc {padding-top: 19px;}
+	.mac-os .intro .contents-title,
+	.safari .intro .contents-title {padding-top: 34px;}
+	.InternetExplorer .contents-title {padding-top: 35px;}
+}

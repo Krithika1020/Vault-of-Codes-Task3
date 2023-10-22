@@ -1,0 +1,500 @@
+
+
+html {
+  overflow-y: scroll;
+}
+
+/* Forces a scrollbar when the viewport is larger than the websites content - CSS3 */
+
+img:hover {
+  /* To make the image expand on hover */
+  transform: scale(1.1);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 13px;
+  font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+  color: white;
+  background-color: #232323;
+  background-image: url("main-back.jpeg");
+  background-size: cover;
+}
+
+.clear:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+}
+
+.clear {
+  display: block;
+  clear: both;
+}
+
+html[xmlns] .clear {
+  display: block;
+}
+
+* html .clear {
+  height: 1%;
+}
+
+a {
+  outline: none;
+  text-decoration: none;
+}
+
+code {
+  font-weight: normal;
+  font-style: normal;
+  font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+}
+
+.fl_left {
+  float: left;
+}
+
+.fl_right {
+  float: right;
+}
+
+img {
+  margin: 0;
+  padding: 0;
+  border: none;
+  line-height: normal;
+  vertical-align: middle;
+  transition: 0.3s;
+}
+
+/* Transition for the hover expansion */
+.imgholder,
+.imgl,
+.imgr {
+  padding: 4px;
+  border: 1px solid #D6D6D6;
+  text-align: center;
+}
+
+.imgl {
+  float: left;
+  margin: 0 15px 15px 0;
+  clear: left;
+}
+
+.imgr {
+  float: right;
+  margin: 0 0 15px 15px;
+  clear: right;
+}
+
+/*----------------------------------------------HTML 5 Overrides-------------------------------------*/
+
+address,
+article,
+aside,
+figcaption,
+figure,
+footer,
+header,
+nav,
+section {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+q {
+  display: block;
+  padding: 0 10px 8px 10px;
+  color: white;
+  background-color: #ECECEC;
+  font-style: italic;
+  line-height: normal;
+}
+
+q:before {
+  content: '� ';
+  font-size: 26px;
+}
+
+q:after {
+  content: ' �';
+  font-size: 26px;
+  line-height: 0;
+}
+
+/* ----------------------------------------------Wrapper-------------------------------------*/
+
+div.wrapper {
+  display: block;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+.row1,
+.row1 a {
+  color: #FF9900;
+  background-color: #333333;
+  background-color: rebeccapurple;
+}
+
+/*For the Banner*/
+.row2 {
+  color: white;
+  background-image: url("main-back.jpeg");
+}
+
+/*For the Body*/
+.row2 a {
+  color: #FF9900;
+}
+
+/*Read More*/
+.row3,
+.row3 a {
+  color: antiquewhite;
+  background-color: purple;
+}
+
+/* Footer */
+
+/*----------------------------------------------Generalise-------------------------------------*/
+
+#header,
+#container,
+#footer {
+  display: block;
+  width: 960px;
+  margin: 0 auto;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-weight: bold;
+  font-style: normal;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+address {
+  font-style: normal;
+}
+
+blockquote,
+q {
+  display: block;
+  padding: 8px 10px;
+  color: white;
+  background-color: #ECECEC;
+  font-style: italic;
+  line-height: normal;
+}
+
+blockquote:before,
+q:before {
+  content: '� ';
+  font-size: 26px;
+}
+
+blockquote:after,
+q:after {
+  content: ' �';
+  font-size: 26px;
+  line-height: 0;
+}
+
+form,
+fieldset,
+legend {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+legend {
+  display: none;
+}
+
+input,
+textarea,
+select {
+  font-size: 12px;
+  font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+}
+
+.one_third,
+.two_third,
+.three_third {
+  display: block;
+  float: left;
+  width: 300px;
+  border-color: transparent;
+}
+
+.one_third {
+  margin-left: 0%;
+}
+
+.two_third {
+  padding-left: 30px;
+}
+
+.three_third {
+  padding-left: 30px;
+}
+
+
+.lastbox {
+  margin-right: 0;
+}
+
+/*----------------------------------------------Header-------------------------------------*/
+
+#header {
+  padding: 20px 0;
+}
+
+#header #hgroup {
+  float: left;
+  margin: 0 0 20px 0;
+}
+
+#header #hgroup h1,
+#header #hgroup h2 {
+  font-weight: normal;
+  text-transform: none;
+  text-decoration-color: mediumpurple;
+}
+
+#header #hgroup h1 {
+  font-size: 50px;
+  text-decoration-color: mediumpurple;
+}
+
+#header #hgroup h2 {
+  font-size: 13px;
+}
+
+/*---------------------------------------------Navigation Box-------------------*/
+#header nav {
+  display: block;
+  float: right;
+  margin: 10px 0 0 0;
+  padding: 20px 0;
+  color: antiquewhite;
+  background-color: mediumpurple;
+  font-size: 16px;
+}
+
+#header nav ul {
+  padding: 0 20px;
+}
+
+#header nav li {
+  display: inline;
+  margin-right: 25px;
+  text-transform: uppercase;
+}
+
+#header nav li.last {
+  margin-right: 0;
+}
+
+#header nav li a {
+  color: white;
+  background-color: mediumpurple;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.05);
+}
+
+#header nav li a:hover {
+  color: #ddd;
+  background-color: mediumorchid;
+}
+
+/*----------------------------------------------Content Area-------------------------------------*/
+
+#container {
+  padding: 30px 0;
+}
+
+#container section {
+  display: block;
+  width: 100%;
+  margin: 0 0 30px 0;
+  padding: 0;
+}
+
+#container .last {
+  margin: 0;
+}
+
+#container .more {
+  text-align: right;
+}
+
+/* ------Shout-----*/
+
+#container #shout {
+  padding: 0 0 20px 0;
+  border-bottom: 3px solid #FF9900;
+  text-align: center;
+}
+
+#container #shout p {
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+  line-height: 1.8em;
+}
+
+/* ------Main Content-----*/
+
+#container #homepage {
+  display: block;
+  width: 100%;
+  line-height: 1.6em;
+}
+
+#container #homepage .spacer {
+  display: block;
+  width: 100%;
+  height: 30px;
+  margin: 0;
+  padding: 0;
+  clear: both;
+}
+
+#container #homepage #latest {
+  margin-bottom: 50px;
+}
+
+#container #homepage #latest article {}
+
+#container #homepage #latest article figure {}
+
+#container #homepage #latest article figure ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#container #homepage #latest article figure ul li {
+  margin-bottom: 50px;
+}
+
+#container #homepage #latest article figure ul li img {
+  padding: 4px;
+  border: 0px solid #D6D6D6;
+  text-align: center;
+}
+
+#container #homepage #latest article figure figcaption {
+  display: block;
+  width: 100%;
+  clear: both;
+  padding: 0 0 20px 0;
+  border-bottom: 1px solid #DEDEDE;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: right;
+}
+
+#container #homepage #services {}
+
+#container #homepage #services article {}
+
+#container #homepage #services figure {
+  display: inline;
+  float: left;
+}
+
+#container #homepage #services strong {
+  float: left;
+  margin: 8px 0 0 10px;
+  padding: 0;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+#container #homepage #services p {
+  display: block;
+  margin: 0;
+  padding: 5px 0 0 0;
+  clear: both;
+  line-height: 1.6em;
+}
+
+/*----------------------------------------------Footer-------------------------------------*/
+
+#footer {
+  padding: 20px 0;
+}
+
+#footer p {
+  margin: 0;
+  padding: 0;
+}
+
+/*--------------------------------------------DropDown-------------------------*/
+.dropbtn {
+  background-color: mediumpurple;
+  color: white;
+  padding: 10px;
+  font-size: 15px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: mediumorchid;
+}

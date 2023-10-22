@@ -1,0 +1,72 @@
+<!DOCTYPE HTML>
+<link rel="stylesheet" href="styles/layout.css" type="text/css">
+<link rel="stylesheet" href="styles/product.css" type="text/css">
+<link rel="stylesheet" href="styles/form.css" type="text/css">
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.shop.js"></script>
+<title>User Registration Form</title>
+<div class="wrapper row1">
+  <header id="header" class="clear">
+    <div id="hgroup">
+      <h1><a href="index.html"><img src="vault/Untitled_5.avif"/></a></h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Internships</a></li>
+        <li><a href="webdev.html">Web Development</a></li>
+        <li><a href="appdev.html">App Development</a></li>
+        <li><a href="python.html">Python</a></li>
+        <li><a href="java.html">Java</a></li>
+        <li class="last">
+              <li><a href="https://forms.gle/3qeL2HymFv1xSBQRA">Canva Designing</a></li>
+              </li>
+      </ul>
+    </nav>
+  </header>
+</div>
+<div id="site">
+  <div id="form-div">
+    <form class="montform" id="reused_form">
+      <p class="feedback-input" >
+        
+          <label for="name"> Name:</label>
+          <input type="text" id="name" class="feedback-input" placeholder="Name" name="name" required>
+          <label for="email">Email Address:</label>
+          <input type="email" id="email" class="feedback-input" placeholder="Email" name="email" required>
+          <label for="password">Password:</label>
+          <input type="password" id="password" class="feedback-input" placeholder="Password"name="password" required>
+          <p class="feedback-input" id="password-strength"></p>
+          
+     </p>
+     <p class="feedback-input">
+          <label for="confirm-password">Confirm Password:</label>
+          <input type="password" id="confirm-password" class="feedback-input" placeholder="Confirm Password" name="confirm-password" required>
+          <label for="dob">Date of Birth:</label>
+          <input type="date" id="dob" class="feedback-input" placeholder="dd/mm/yyyy" name="dob" required>
+
+      
+          <label for="gender">Gender:</label>
+          <label for="male">Male</label>
+          <input type="radio" id="male" name="gender" value="male" required>
+          <label for="female">Female</label>  
+          <input type="radio" id="female" name="gender" value="female" required>
+        
+          <label for="profile-picture">Profile Picture:</label>
+          <input type="file" id="profile-picture" name="profile-picture" accept="image/*" required>
+          <label>
+              <input type="checkbox" required> I accept the Terms and Conditions
+          </label>
+      
+      </p>
+     
+     
+      <div class="submit">
+        <button type="submit" class="button">Register</button>
+        <div class="ease"></div>
+      </div>
+    </form>
+  </div>
+  <script src="script.js"></script>
+  </body>
+
+  </html>
